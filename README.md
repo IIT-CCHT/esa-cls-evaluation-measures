@@ -1,0 +1,10 @@
+# [Deep Learning for Archaeological Object Detection on LiDAR: New Evaluation Measures and Insights](https://github.com/IIT-CCHT/esa-cls-evaluation-measures)
+### [Project Website](https://github.com/IIT-CCHT/esa-cls-evaluation-measures)
+
+
+
+### This repo contains the code for our paper **[Deep Learning for Archaeological Object Detection on LiDAR: New Evaluation Measures and Insights](https://doi.org/10.3390/rs14071694), Published in MDPI Remote Sensing on 31 March 2022**
+
+
+## Abstract
+Machine Learning-based workflows are being progressively used for the automatic detection of archaeological objects (intended as below-surface sites) in remote sensing data. Despite promising results in the detection phase, there is still a lack of a standard set of measures to evaluate the performance of object detection methods, since buried archaeological sites often have distinctive shapes that set them aside from other types of objects included in mainstream remote sensing datasets (e.g., Dataset of Object deTection in Aerial images, DOTA). Additionally, archaeological research relies heavily on geospatial information when validating the output of an object detection procedure, a type of information that is not normally considered in regular machine learning validation pipelines. This paper tackles these shortcomings by introducing two novel automatic evaluation measures, namely ‘centroid-based’ and ‘pixel-based’, designed to encode the salient aspects of the archaeologists’ thinking process. To test their usability, an experiment with different object detection deep neural networks was conducted on a LiDAR dataset. The experimental results show that these two automatic measures closely resemble the semi-automatic one currently used by archaeologists and therefore can be adopted as fully automatic evaluation measures in archaeological remote sensing detection. Adoption will facilitate cross-study comparisons and close collaboration between machine learning and archaeological researchers, which in turn will encourage the development of novel human-centred archaeological object detection tools.
