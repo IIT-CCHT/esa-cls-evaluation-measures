@@ -1,5 +1,5 @@
 """
-    evaulate.py
+    evaluate.py
     IIT : Istituto italiano di tecnologia
     Center for Cultural Heritage Technology (CCHT) research line
     
