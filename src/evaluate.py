@@ -1,8 +1,35 @@
-import numpy as np
+"""
+    evaulate.py
+    IIT : Istituto italiano di tecnologia
+    Center for Cultural Heritage Technology (CCHT) research line
+    
+    Description: This repo contains the code for our paper 
+    Deep Learning for Archaeological Object Detection on LiDAR: New Evaluation Measures and Insights, 
+    Published in MDPI Remote Sensing on 31 March 2022
+
+    Disclaimer:
+    The information and content provided by this application is for information purposes only.
+    The software is provided "as is", without warranty of any kind, express or implied,
+    including but not limited to the warranties of merchantability,
+    fitness for a particular purpose and noninfringement. In no event shall the authors,
+    CCHT or IIT be liable for any claim, damages or other liability, whether in an action of contract,
+    tort or otherwise, arising from, out of or in connection with the software
+    or the use or other dealings in the software.
+    
+    LICENSE:
+    The information and content provided by this application is for information purposes only. 
+    The software is provided "as is", without warranty of any kind, express or implied, 
+    including but not limited to the warranties of merchantability, 
+    fitness for a particular purpose and noninfringement. In no event shall the authors, 
+    CCHT or IIT be liable for any claim, damages or other liability, whether in an action of contract, 
+    tort or otherwise, arising from, out of or in connection with the software 
+    or the use or other dealings in the software.
+"""
+
 import copy
 
+import numpy as np
 import shapely.wkt
-
 
 
 def compute_iou_check_threshold(pred_polygon, gt_polygon, iou_threshold):
